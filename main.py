@@ -12,8 +12,22 @@ def countdown(t):
         print(timer, end='\r')
         time.sleep(1)
         t -= 1
-    print("30 mins done")
 
 
-timer1 = 30*60 #minutes
+timer1 = 30 #minutes
 countdown(timer1)
+print("30 mins done")
+
+print("Did you solve it? y/N")
+ans = input()
+if(ans == 'y'):
+    print("+10 points for you")
+else:
+    print("Okay here's a hint and additional 10 mins")
+    countdown(10)
+    print("10 mins have passed. Did you solve it? y/N")
+    again = input()
+    if(again == 'y'):
+        print("+5 points for you")
+    else:
+        print("You're worthless!! See the solution and learn you fool.")
