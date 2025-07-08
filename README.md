@@ -1,6 +1,6 @@
 ## 30MinAC - A CLI tool for DSA
 
-This is a pyhton script that is a Leetcode tracker: 
+This is a python script that is a Leetcode tracker: 
 
 1. When you run the script it gives you 30 min timer to solve the question. 
 2. Then after 30 mins a hint is provided.
@@ -23,3 +23,7 @@ Couldn't solve on own: 0 points
 Checking Mechanism: 
 1. Manual: I ask 
 2. Semi-Automatic
+
+What needs to be done:
+- Hint implementation
+- Submission Checker
