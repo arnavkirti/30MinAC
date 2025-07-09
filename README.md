@@ -25,5 +25,6 @@ Checking Mechanism:
 2. Semi-Automatic
 
 What needs to be done:
-- Hint implementation
-- Submission Checker
+- Hint implementation - i need to clean the output.
+- Submission Checker - implement submission checker that checks submission
+- Add a Leaderboard functionality - that saves the points to a Leaderboard
